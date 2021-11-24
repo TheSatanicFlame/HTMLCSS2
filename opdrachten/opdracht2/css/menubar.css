@@ -1,0 +1,87 @@
+
+.menuname{
+    color: transparent;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-inline-policy: text;
+    background-size: 400%;
+    animation: txt-animation 5s infinite alternate ;
+    font-weight: bold;
+}
+
+
+
+#menubar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+
+.menubar{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  display: block;
+  background-color: #262626;
+  height: 4vw;
+}
+
+.baritem{
+    display: inline;
+    float: right;
+    padding: 1.5vw;
+    font-size: 1.5vw;
+}
+
+.barlink{
+  text-decoration-line: none;
+  text-decoration-style: none;
+  color: white;
+
+}
+
+.bartxt:hover {
+  background: linear-gradient(90deg, rgba(0,249,255,1) 0%, rgba(94,253,29,1) 50%, rgba(242,252,69,1) 100%);
+  background-size: 400%;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-inline-policy: text;
+  animation: txt-animation 5s infinite alternate ;
+}
+
+.baricons:hover {
+  color:white;
+}
+
+.activebar{
+  font-weight: bold;
+  background: linear-gradient(90deg, rgba(0,249,255,1) 0%, rgba(94,253,29,1) 50%, rgba(242,252,69,1) 100%);
+  background-size: 400%;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-inline-policy: text;
+  animation: txt-animation 5s infinite alternate ;
+}
+
+.baricons{
+  font-size: 1vw;
+  padding-bottom: 0.00vw;
+}
+
+@media (max-width: 800px) {
+  .baritem{
+      font-size: 5vw;
+  }
+
+  .menubar{
+    height: 10vw;
+  }
+
+  .baricons{
+    font-size:4.5vw;
+    }
+  }
