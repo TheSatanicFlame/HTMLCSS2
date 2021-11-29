@@ -53,3 +53,9 @@ ul.submenu li:hover{
 .navbar{
   text-align: center;
 }
+
+nav{
+  position: sticky;
+  height: 3.5vh;
+  top: 0;
+}
