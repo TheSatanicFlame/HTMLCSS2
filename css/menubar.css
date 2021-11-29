@@ -23,6 +23,7 @@ ul.submenu{
   margin-left: -0.5vw;
   margin-top: 0.45vh;
   display: none;
+  text-align: left;
 }
 
 ul.submenu li{
@@ -37,8 +38,18 @@ ul.submenu li:hover{
   background-color: #262626;
 }
 
-.navbar > ul > li{
+.navbar > ul > li > a{
   text-decoration-line: none;
   text-decoration-style: none;
   color: white;
+}
+
+.submenu > li > a{
+  text-decoration-line: none;
+  text-decoration-style: none;
+  color: white;
+}
+
+.navbar{
+  text-align: center;
 }
