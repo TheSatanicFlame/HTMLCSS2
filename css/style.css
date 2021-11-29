@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
 }
 
 :root {
@@ -29,4 +31,18 @@
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+
+.wrapper{
+
+  margin-left: 10vw;
+  margin-right: 10vw;
+  background-color: hsla(0, 0%, 0%, .8);
+  box-sizing: border-box;
+  border-radius: 0 0 30px 30px;
+}
+
+.wrapgrid{
+  display: grid;
+  grid-row: auto;
 }
