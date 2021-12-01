@@ -1,0 +1,20 @@
+form{
+  margin-top: 4vh;
+}
+
+label input{
+  margin-top: 4vh;
+}
+
+.label{
+  width: 30%;
+}
+
+.input{
+  width: 70%;
+}
+
+input{
+  width: 100%;
+  color:black ;
+}

@@ -6,7 +6,7 @@
 }
 
 :root {
-  --background-color: #26262
+  --background-color: hsla(0, 0%, 0%, .8);
 }
 
 @keyframes txt-animation {
@@ -37,9 +37,9 @@
 
   margin-left: 10vw;
   margin-right: 10vw;
-  background-color: hsla(0, 0%, 0%, .8);
+  background-color: var(--background-color);
   box-sizing: border-box;
-  border-radius: 0 0 30px 30px;
+
 }
 
 .wrapgrid{

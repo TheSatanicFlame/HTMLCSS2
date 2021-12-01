@@ -1,0 +1,23 @@
+.title{
+  padding-top:2vh;
+  text-align: center;
+}
+
+.subtitle{
+  text-align: center;
+  padding-bottom:2vh;
+}
+
+p{
+  font-size:2vh;
+}
+
+iframe {
+  float: right;
+}
+
+audio{
+  float: right;
+  margin-top:2vh ;
+  margin-left:15vw ;
+}
