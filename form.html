@@ -9,6 +9,7 @@
   <title>HTML CSS 3</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/menubar.css">
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
@@ -29,7 +30,31 @@
   </nav>
   <div class="wrapgrid">
     <div class="wrapper">
+      <center style="padding-bottom: 5%;">
+      <form action="">
+        <table style="width: 60%">
+          <span style="color: red">*</span> = required
+          <tr>
+            <td class="label">Naam<span style="color: red">*</span></td>
+            <td class="input"><input type="text" name="name" required></td>
+          </tr>
+          <tr>
+            <td class="label">E-mail<span style="color: red">*</span></td>
+            <td class="input"><input type="email" name="mail" required></td>
+          </tr>
+          <tr>
+            <td class="label">Geboortedatum<span style="color: red">*</span></td>
+            <td class="input"><input type="date" name="birth" required></td>
+          </tr>
+          <tr>
+            <td class="label">Password<span style="color: red">*</span></td>
+            <td class="input"><input type="password" name="password" required></td>
+          </tr>
 
+        </table>
+        <input style="width:20%" type="submit" name="submit" id="">
+      </form>
+      </center>
     </div>
   </div>
 
